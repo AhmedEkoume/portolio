@@ -1,0 +1,74 @@
+html,
+body{
+    height: 100%;
+    font-size: 1em;
+}
+.gradient{ 
+    background: rgb(75,86,91);
+    background: linear-gradient(90deg, rgba(75,86,91,1) 0%, rgba(6,12,19,0.6993391106442577) 37%, rgba(0,0,0,1) 100%);
+}
+
+.page-header{
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    color: goldenrod;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.text-header{
+    /*margin-top: 15rem;*/
+    font-size: 1.25rem;
+    color: grey;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 900;
+    
+}
+
+.nav-link{
+
+    color: goldenrod;
+
+}
+
+.text-gold{
+    color: goldenrod;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+section {
+    /* padding: 60px 0; */
+    overflow: hidden;
+    
+}
+  
+.section-title {
+    padding-bottom: 30px;
+}
+  
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: black;
+    font-family: 'Noto Sans Mono', monospace;
+}
+  
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: goldenrod;
+    bottom: 0;
+    left: 0;
+}
+  
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+ 
